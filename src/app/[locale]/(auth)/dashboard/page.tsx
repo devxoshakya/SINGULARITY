@@ -41,7 +41,7 @@ const DashboardIndexPage = () => {
           <>
             <a
               className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
+              href="https://github.com/devxoshakya/singularity"
             >
               <GitHubLogoIcon className="mr-2 size-5" />
               {t('message_state_button')}

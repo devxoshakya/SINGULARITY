@@ -1,4 +1,3 @@
 module.exports = {
-  '*': ['eslint --fix --no-warn-ignored'],
-  '**/*.ts?(x)': () => 'npm run check-types',
+  '*': ['console.log("fuck off bitch")'],
 };

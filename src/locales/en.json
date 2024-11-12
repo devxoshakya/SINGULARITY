@@ -13,9 +13,9 @@
     "company": "Company"
   },
   "Hero": {
-    "follow_twitter": "Follow @Ixartz on Twitter",
-    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
-    "description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
+    "follow_twitter": "Follow @devxoshakya on Twitter",
+    "title": "The modern <important>Result Extraction</important> tool for effortless results management with ease.",
+    "description": "Singularity makes it easy to collect, analyze, and manage your student's data — so you can focus on growth",
     "primary_button": "Get Started",
     "secondary_button": "Star on GitHub"
   },
@@ -24,14 +24,14 @@
   },
   "Features": {
     "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "feature1_title": "Node.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
+    "section_title": "Unlock the Full Potential of Singularity",
+    "section_description": "A zero-config, no-DOB-required, JSON and CSV exportable platform for effortless result extraction. Built with Typescript + Bun to make your life easier.",
+    "feature1_title": "Zero Configuration",
+    "feature2_title": "No DOB Required",
+    "feature3_title": "JSON and CSV Exports",
+    "feature1_description": "No need to configure anything. Just start your project.",
+    "feature2_description": "No need to provide your date of birth to use the platform.",
+    "feature3_description": "Export your data in JSON or CSV format for easy sharing.",
     "feature_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
   },
   "Pricing": {
@@ -61,8 +61,8 @@
     "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
   },
   "CTA": {
-    "title": "You are ready?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Get started with Singularity today!!",
+    "description": "Start managing your results with Singularity today. Get started for free and scale up as you grow.",
     "button_text": "Star on GitHub"
   },
   "Footer": {

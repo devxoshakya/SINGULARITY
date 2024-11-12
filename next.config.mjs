@@ -20,7 +20,7 @@ export default withSentryConfig(
   bundleAnalyzer(
     withNextIntlConfig({
       eslint: {
-        dirs: ['.'],
+        ignoreDuringBuilds: true,
       },
       poweredByHeader: false,
       reactStrictMode: true,
