@@ -1,18 +1,11 @@
 import { OrganizationProfile } from '@clerk/nextjs';
-import { useTranslations } from 'next-intl';
 
-import { TitleBar } from '@/features/dashboard/TitleBar';
 import { getI18nPath } from '@/utils/Helpers';
 
 const OrganizationProfilePage = (props: { params: { locale: string } }) => {
-  const t = useTranslations('OrganizationProfile');
-
   return (
-    <>
-      <TitleBar
-        title={t('title_bar')}
-        description={t('title_bar_description')}
-      />
+
+    <div className="size-full p-2 md:px-16 md:py-8">
 
       <OrganizationProfile
         routing="path"
@@ -28,7 +21,8 @@ const OrganizationProfilePage = (props: { params: { locale: string } }) => {
           },
         }}
       />
-    </>
+    </div>
+
   );
 };
 
