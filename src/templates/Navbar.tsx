@@ -28,8 +28,7 @@ export const Navbar = () => {
             </li>
           </>
         )}
-      >
-      </CenteredMenu>
+      />
     </Section>
   );
 };
