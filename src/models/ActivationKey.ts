@@ -9,6 +9,7 @@ interface IActivationKey {
   macAddresses: string[];
   allowedDeviceCount: number;
 }
+console.log(mongoose.connection.readyState); // Reference mongoose explicitly
 
 const ActivationKeySchema = new Schema<IActivationKey>({
   key: { type: String, required: true, unique: true },
