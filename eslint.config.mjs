@@ -64,5 +64,10 @@ export default antfu({
     'node/prefer-global/process': 'off', // Allow using `process.env`
     'test/padding-around-all': 'error', // Add padding in test files
     'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
+    'no-unused-vars': 'off',
+    'no-undef': 'off',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', { 'varsIgnorePattern': '^_', "argsIgnorePattern": '^_' }],
+    '@typescript-eslint/no-undef': 'error',
   },
 });
